@@ -1,0 +1,222 @@
+.dev2prod_footer_container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.dev2prod_footer_details img{
+    padding: 1rem;
+    margin: 0 0 1.5rem 7.5rem;
+}
+#footer1{
+    padding: 0;
+    margin:0 0 0 9rem;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 20rem;
+    color: #535074;
+}
+.dev2prod_links{
+    padding: 1rem;
+    margin-left: 8rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+}
+.dev2prod_links span{
+    color: black;
+}
+.dev2prod_links h6{
+    font-size: 12px;
+    padding: 0.1rem;
+    color: #696592;
+}
+.dev2prod_contact_details{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    width: 12rem;
+}
+.dev2prod_contact_images {
+    display: flex;
+    column-gap: 0.5rem;
+}
+.dev2prod_message_head h4{
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #413e66;
+}
+.dev2prod_name input{
+    margin: -1rem 0 0 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 0.1rem;
+}
+.dev2prod_email input{
+    margin: 1rem 0 0 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 0.1rem;
+}
+.dev2prod_subject input{
+    margin: 1rem 0 0 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 0.1rem;
+}
+.message{
+    margin: 1rem 0 0 10rem ;
+}
+.dev2prod_message textarea{
+    margin: 1rem 0 0 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 5rem; 
+}
+.dev2prod_footer_container{
+    background-color: #f5f8fd;
+}
+.dev2prod_copyright{
+    text-align: center;
+    padding: 2rem 0;
+}
+.dev2prod_copyright h3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.dev2prod_copyright span{
+    color: #535074;
+}
+@media only screen and (max-width:37.5em){
+.dev2prod_footer_container{
+    /* border: 1px solid black; */
+    width: 21.2rem;
+    margin: 0 2rem 0 0;
+    display: grid;
+    grid-template-columns: 38% 45%;
+}
+.dev2prod_footer_details img{
+    width: 10rem;
+    margin: 0 0 0 0rem;
+    padding: 0;
+}
+#footer1{
+    margin: 1rem 0 0 0.1rem;
+    width: 12rem;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.dev2prod_links{
+    margin-left: 4rem;
+}
+.dev2prod_links h4{
+    width: 7rem;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+.dev2prod_links h6{
+    font-size: 14px;
+    width: 7rem;
+}
+.dev2prod_contact_details {
+    font-size: 10px;
+    width: 10rem;
+}
+.dev2prod_contact_images img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.dev2prod_message_head h4{
+    margin: 0;
+    width: 10rem;
+    font-size: 14px;
+}
+.dev2prod_name input{
+    width: 20rem;
+}
+.dev2prod_email input{
+    width: 20rem;
+}
+.dev2prod_subject input{
+    width: 20rem;
+}
+.dev2prod_message {
+    width: 20rem;
+}
+.message{
+    margin-left: 7.5rem;
+    font-size: 14px;
+}
+.dev2prod_copyright h3{
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 56.25em) and (min-width:600px){
+.dev2prod_footer_container{
+    /* border: 1px solid black; */
+     width: 29rem;
+     margin: 0 2rem 0 0;
+     display: grid;
+     grid-template-columns: 45% 45%;
+}
+.dev2prod_footer_details img{
+     width: 8rem;
+     margin: 0 0 0 1.5rem;
+     padding: 0;
+}
+#footer1{
+    margin: 1rem 0 0 1.5rem;
+    width: 13rem;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.dev2prod_links{
+     margin-left: 1.5rem;
+}
+.dev2prod_links h4{
+    width: 9rem;
+    font-size: 18px;
+    margin: 0 0 0 0;
+}
+.dev2prod_links h6{
+    font-size: 16px;
+    width: 8rem;
+}
+.dev2prod_contact_details {
+    font-size: 14px;
+    width: 14rem;
+}
+.dev2prod_contact_images img{
+    width: 2rem;
+    height: 2rem;
+}
+.dev2prod_message_head h4{
+    margin: 0;
+    width: 12rem;
+    font-size: 18px;
+}
+.dev2prod_message{
+    width: 25rem;
+    padding: 0;
+    margin: 0;
+}
+.message{
+    margin-left: 10rem;
+    font-size: 14px;
+    width: 10rem;
+    height: 2rem;
+}
+.dev2prod_copyright h3{
+    font-size: 16px;
+    margin-right: 16rem;
+}
+}

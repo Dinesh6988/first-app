@@ -1,0 +1,43 @@
+.forgot_logo_img{
+    padding: 1rem 0 0 8rem;
+    background-color: #f8fbff;
+    img{
+        width: 15rem;
+    }
+}
+.forgot_container{
+    background-color: #f8fbff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    h1{
+        margin: 15rem 0 0 8rem;
+        font-size: 20px;
+    }
+    .forgot_email{
+        margin: 2rem 0 0 8rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        Input{
+            height: 3rem;
+            width: 35rem;
+        }
+    }
+    .arrow{
+        margin: 3rem 0 0 25rem;
+    }
+    h4{
+        text-align: center;
+    }
+    span{
+        color: #2d80b5;
+        cursor: pointer;
+    }
+    .forgot_image{
+        img{
+            width: 35rem;
+            height: 35rem;
+            margin: 1rem 0 0 3rem;
+        }
+    }
+}

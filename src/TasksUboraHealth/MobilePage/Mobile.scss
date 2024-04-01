@@ -1,0 +1,103 @@
+.uborahealth_download_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    width: 100%;
+    .uborahealth_download{
+        h2{
+            font-size: 40px;
+            margin-left: 3.5rem;
+            color: #2d80b5;
+        }
+        h1{
+            font-size: 40px;
+            margin-left: 3.5rem;
+            color: #2d80b5;
+        }
+        .uborahealth_download_images{
+            display: flex;
+            margin-left: 3.5rem;
+            align-items: center;
+        }
+    }
+    .uborahealth_mobile_image img{
+        width: 30rem;
+        height: 30rem;
+        margin: 3rem 0 0 4rem;
+    }
+}
+@media screen and (max-width:56.25em){
+    .uborahealth_download_container{
+        width: 80rem;
+        .uborahealth_download{
+            h2{
+                font-size: 40px;
+                font-weight: 700;
+                margin-left: 2rem;
+                width: 38rem;
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 800;
+                margin-left: 3rem;
+                width: 38rem;
+            }
+            .uborahealth_download_images{
+                display: flex;
+                flex-direction: column;
+                .googleplay img{
+                    margin-left: 10rem;
+                }
+                .appstore img{
+                    margin-left: 10rem;
+                }
+                  
+            }
+        }
+        .uborahealth_mobile_image img{
+            width: 26rem;
+            height: 26rem;
+            margin-left: 15rem;
+        }
+    }
+}
+@media screen and (max-width: 37.5em){
+      .uborahealth_download_container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80rem;
+        height: 85rem;
+        .uborahealth_mobile_image img{
+            width: 35rem;
+            height: 35rem;
+            margin: 0 2rem 10rem 0;
+        }
+        .uborahealth_download{
+            h2{
+                font-size: 50px;
+                font-weight: 700;
+                margin: 0 0 5rem 8rem;
+                width: 50rem;
+            }
+            h1{
+                font-size: 50px;
+                font-weight: 800;
+                margin-left: 9rem;
+            }
+            .uborahealth_download_images{
+                display: flex;
+                flex-wrap: nowrap;
+                .googleplay img{
+                    width: 20rem;
+                    height: 10rem;
+                    margin-left: 0 ;
+                }
+                .appstore img{
+                    width: 20rem;
+                    height: 10rem;
+                    margin-left: 0;
+                }
+            }
+        }
+      }
+}

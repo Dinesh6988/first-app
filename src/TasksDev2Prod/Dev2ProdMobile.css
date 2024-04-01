@@ -1,0 +1,55 @@
+.dev2prod_mobile_details p{
+    margin: 1rem 0 0 8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 400;
+    width: 35rem;
+    color: #444;
+    line-height: 1.5;
+}
+.dev2prod_mobile_container{
+    display: flex;
+    align-items: center;
+}
+.dev2prod_mobile_image img{
+    width: 40rem;
+    padding: 1rem;
+    margin: 1rem 0 0 2rem;
+}
+@media only screen and (max-width:37.5em){
+.dev2prod_mobile_container{
+    /* border: 1px solid black; */
+    width: 23.2rem;
+    display: flex;
+    flex-direction: column-reverse;
+} 
+.dev2prod_mobile_image img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 0.5rem;
+}
+.dev2prod_mobile_details p{
+    font-size: 14px;
+    margin-left: 0;
+    width: 20rem;
+}  
+}
+@media only screen and (max-width: 56.25em) and (min-width:600px){
+.dev2prod_mobile_container{
+    /* border: 1px solid black; */
+    width: 31rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dev2prod_mobile_image img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+}
+.dev2prod_mobile_details p{
+    font-size: 18px;
+    margin-left: 0.5rem;
+    width: 25rem;
+}   
+}

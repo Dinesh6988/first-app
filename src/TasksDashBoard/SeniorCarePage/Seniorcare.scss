@@ -1,0 +1,134 @@
+.promotions_container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 5px #d9d9dd;
+    background-color: #f8fbff;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem 0 0 5rem;
+    .image1{
+        img{
+            height: 15rem;
+            background-color: #fff;
+        }
+    }
+    .promotions_details{
+        background-color: #fff;
+        height: 15rem;
+        margin-left: 1rem;
+        h1{
+            margin-left: 2rem;
+            font-size: 18px;
+        }
+        span{
+            color: #2d80b5;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        h5{
+            margin: 0 2rem;
+            font-weight: 500;
+            font-size: 15px;
+        }
+        .coupon{
+            h3{
+                margin: 0.5rem 2rem;
+                font-weight: 400;
+                border: 1px dashed #333;
+                width: 13rem;
+                text-align: center;
+                border-radius: 1rem;
+            }
+            span{
+                color: #333;
+                font-weight: 600;
+            }
+        }
+        .valid{
+            h4{
+                font-weight: 400;
+                margin: 0 2rem;
+            }
+            span{
+                color: #333;
+                font-weight: 600;
+            }
+        }
+    }
+}
+@media screen and (max-width:900px){
+      .promotions_container{
+        margin-top: 32rem;
+        height: 26rem;
+        margin-left: 0;
+        .image1{
+            img{
+                width: 30rem;
+                height: 25rem;
+            }
+        }
+        .promotions_details{
+            margin-left: 5rem;
+            height: 25rem;
+            h1{
+                font-size: 25px;
+                font-weight: 800;
+            }
+            span{
+                font-size: 26px;
+                font-weight: 900;
+            }
+            h5{
+                font-size: 27px;
+                font-weight: 700;
+            }
+            .coupon{
+                h3{
+                    font-size: 25px;
+                    font-weight: 500;
+                    width: 18rem;
+                    padding: 1rem;
+                    border: 3px dashed #333;
+                    width: 18rem;
+                }
+            }
+            .valid{
+                h4{
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            }
+        }
+      }
+      .clt{
+        margin-left: 3rem;
+        width: 75rem;
+        height: 15rem;
+    }
+}
+@media screen and (max-width: 37.5em){
+    .promotions_container{
+        margin-top: 35rem;
+        height: 30rem;
+        .image1{
+            img{
+                width: 30rem;
+                height: 30rem;
+            }
+        }
+        .promotions_details{
+            height: 30rem;
+            h5{
+                display: none;
+            }
+            span{
+                color: red;
+            }
+        }
+    }
+    .clt{
+        width: 70rem;
+        height: 10rem;
+    }
+}

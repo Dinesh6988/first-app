@@ -1,0 +1,304 @@
+.heading1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-left: 5rem;
+}
+.button{
+    margin-left: 26rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 1rem 0 5rem 5rem;
+}
+.card_container{
+    margin-top: 2rem;
+    width: 19rem;
+    height: 18rem;
+    border: 2px solid #d9d9dd;
+    border-radius: 0.5rem;
+    position: relative;
+    .card_image{
+        img{
+            width: 19rem;
+            height: 10rem;
+        }
+    }
+    .discount{
+        h4{
+            position: absolute;
+            z-index: 1;
+            bottom: 15.4rem;
+            background-color: #ffd700;
+            width: 6rem;
+            height: 1.5rem;
+            border-radius: 0.2rem;
+          }
+    }
+    .heart{
+        position: absolute;
+        left: 16rem;
+        bottom: 16rem;
+        .anticon{
+            svg{
+                width: 2rem;
+                height: 1.5rem;
+                color: red;
+            }
+        }
+    }
+    .property{
+        h4{
+            background-color: #333;
+            color: #fff;
+            width: 8rem;
+            height: 1.5rem;
+            padding: 0.1rem 0.5rem;
+            font-size: 14px;
+            position: absolute;
+            top: 7.1rem;
+        }
+    }
+    .check{
+        .anticon{
+            svg{
+                border-radius: 1rem;
+                background-color: #2d80b5;
+                color: #fff;
+                position: absolute;
+                left: 17rem;
+                bottom: 8.5rem;
+            }
+        }
+    }
+    .card_details{
+        .title{
+            h2{
+                margin: 0 1rem;
+            }
+        }
+        .address{
+            h4{
+                margin: 0.5rem 1rem;
+                font-weight: 400;
+            }
+        }
+        .rating{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            .rating_c{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+            .star{
+                margin: 0 1rem;
+                .anticon{
+                    svg{
+                        color: yellow;
+                    }
+                }
+            }
+            .count{
+               span{
+                margin: 0 1rem;
+               }
+            }
+            .cost{
+                h3{
+                    color: #2d80b5;
+                }
+                span{
+                    color: #333;
+                    font-weight: 100;
+                }
+            }
+    }
+    }
+@media screen and (max-width:900px){
+       .heading1{
+        margin-top: 45rem;
+        width: 50rem;
+        font-weight: 900;
+        font-size: 15px;
+       }
+       .button{
+        margin-left: 35rem;
+        .button1{
+           align-items: center;
+           height: 5rem;
+           font-size: 30px;
+           font-weight: 600;
+        }
+       }
+       .cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 15rem;
+        row-gap: 2rem;
+       }
+       .card_container{
+          width: 33rem;
+          height: 27rem;
+          box-shadow: 0 0 5px;
+          border: 1px solid #fff;
+          .card_image{
+            img{
+                width: 33rem;
+                height: 16rem;
+            }
+          }
+          .discount{
+            h4{
+                position: absolute;
+                bottom: 23.3rem;
+                font-size: 20px;
+                width: 10rem;
+                height: 2rem;
+            }
+          }
+          .heart{
+               position: absolute;
+               bottom: 23rem;
+               left: 26rem;
+               .anticon{
+                svg{
+                    width: 6rem;
+                    height: 3rem;
+                }
+               }
+          }
+          .property{
+                h4{
+                    position: absolute;
+                    top: 12.5rem;
+                    font-size: 18px;
+                    width: 11rem;
+                    height: 2rem;
+                }
+          }
+          .check{
+              position: absolute;
+              left: 13rem;
+              bottom: 3.5rem;
+              .anticon{
+                svg{
+                    width: 2rem;
+                    height: 2rem;
+                }
+              }
+          }
+          .card_details{
+            .title{
+                h2{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+                .address{
+                    h4{
+                        font-size: 30px;
+                        font-weight: 400;
+                    }
+                }
+                .star{
+                    font-size: 25px;
+                }
+                .count{
+                    span{
+                        font-size: 29px;
+                        font-weight: 400;
+                    }
+                }
+                .cost{
+                    h3{
+                        font-size: 30px;
+                    }
+                    span{
+                        font-size: 29px;
+                        font-weight: 400;
+                    }
+                }
+          }
+       }
+}
+@media screen and (max-width: 37.5em){
+     .heading1{
+        margin-top: 60rem;
+     }
+     .button{
+        .button1{
+            align-items: center;
+            height: 5rem;
+        }
+     }
+     .cards{
+        display: flex;
+        flex-direction: column;
+     }
+     .card_container{
+        width: 70rem;
+        height: 43rem;
+        .card_image{
+            img{
+                width: 70rem;
+                height: 30rem;
+            }
+        }
+        .discount{
+            h4{
+                position: absolute;
+                bottom: 39.5rem;
+            }
+        }
+        .heart{
+            position: absolute;
+            left: 63rem;
+            bottom: 38rem;
+        }
+        .property{
+            h4{
+                position: absolute;
+                top: 26.3rem;
+            }
+        }
+        .check{
+            position: absolute;
+            left: 49rem;
+            bottom: 6rem;
+        }
+        .card_details{
+            .title{
+                h2{
+                    font-size: 35px;
+                    font-weight: 600;
+                }
+            }
+            .address{
+                h4{
+                    font-size: 33px;
+                    font-weight: 400;
+                }
+            }
+            .count{
+                span{
+                    font-size: 35px;
+                    font-weight: 400;
+                }
+            }
+            .cost{
+                margin-left: 18rem;
+                h3{
+                    font-size: 35px;
+                    font-weight: 900;
+                }
+                span{
+                    font-size: 35px;
+                    font-weight: 400;
+                }
+            }
+        }
+     }
+}
+    

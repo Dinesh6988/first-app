@@ -1,0 +1,82 @@
+.uborahealth_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: #fff;
+    width: 100%;
+    .uborahealth_logo{
+        margin-left: 3rem;
+        width: 5rem;
+    }
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+        align-items: center;
+        margin-right: 5rem;
+        column-gap: 1rem;
+        .dropdown2{
+            background-color: #f1f5fa;
+            border-radius: 0.5rem;
+            width: 8rem;
+            height: 1.5rem;
+            padding: 0.3rem;
+        }
+        .button1{
+            border-radius: 0.5rem;
+            width: 6rem;
+            height: 2rem;
+            background-color: #2d80b5;
+        }
+        .button2{
+            border-radius: 0.5rem;
+            width: 8rem;
+            height: 2rem;
+            background-color: #0cbfc2;
+        }
+    }
+}
+@media screen and (max-width:900px) {
+    .uborahealth_container{
+        position: sticky;
+        top: 0%;
+        width: 100%;
+        .dropdown{
+            display: none;
+        }
+        .menu{
+            display: unset;
+            width: 5rem;
+            height: 2rem;
+            margin-left: 60rem;
+        }
+        .uborahealth_logo img{
+            width: 20rem;
+            height: 4rem;
+            margin-left: 20rem;
+        }
+    }
+}
+@media screen and (max-width: 37.5em){
+    .uborahealth_container{
+        position: sticky;
+        top: 0%;
+        width: 50rem;
+        .dropdown{
+            display: none;
+        }
+        .menu{
+            display: unset;
+            margin-left: 65rem;
+            width: 5rem;
+            height: 1rem;
+        }
+        .uborahealth_logo img{
+            width: 20rem;
+            margin: 1rem 0 0 20rem;
+        }
+    }
+}

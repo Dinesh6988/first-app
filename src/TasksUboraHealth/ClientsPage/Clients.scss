@@ -1,0 +1,188 @@
+.bg_color{
+    border: 1px solid #fff;
+    width: 80rem;
+    .heading{
+        text-align: center;
+    }
+}
+.uborahealth_clients_container{
+    width: 100%;
+    .uborahealth_clients_content{
+        display: grid;
+        grid-template-columns: 20% 60% 5%;
+    }
+    h2{
+        margin: 2rem 0 0 12rem;
+        color: #2d80b5;
+        font-weight: 400;
+        font-size: 50px;
+    }
+    h4{
+        margin: 1rem 0 0 0;
+        width: 60rem;
+        color: #777;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    #qototaions{
+        margin-left: 14rem;
+        color: #2d80b5;
+    }
+    .uborahealth_happyclients_container{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+    .uborahealth_happyclients img{
+         margin: 0 0 0 15rem;
+    }
+    h6{
+        margin: 0 0 0 17rem;
+        font-size: 20px;
+        color: #2d80b5;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    .content1{
+        font-size: 18px;
+        font-weight: 400;
+        color: #777;
+        margin: 0 0 0 6rem;
+        width: 28rem;
+    }
+    .uborahealth_happyclients1 img{
+        margin: 3rem 0 0 12rem;
+    }
+    h5{
+        margin: 0 0 0 15rem;
+        font-size: 20px;
+        color: #2d80b5;
+    }
+    .uborahealth_happyclients2 img{
+        margin: 0 0 0 10rem;
+    }
+    h3{
+        margin: 0 0 0 12rem;
+        font-size: 20px;
+        color: #2d80b5;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    .content2{
+        margin: 1rem;
+        width: 28rem;
+        font-size: 18px;
+        font-weight: 400;
+        color: #777;
+    }
+}
+@media screen and (max-width:56.25em){
+    .heading{
+        margin-left: 18rem;
+        font-size: 25px;
+    }
+    .uborahealth_clients_container{
+        h2{
+            margin: 12rem 0 0 8rem;
+        }
+        h4{
+            width: 40rem;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        #qototaions{
+            margin-left: 0;
+        }
+        .uborahealth_happyclients img{
+            width: 8rem;
+            margin-left: 3rem;
+        }
+        h6{
+            margin-left: 5rem;
+        }
+        .content1{
+               margin-left: 2rem;
+               font-size: 28px;
+               width: 20rem;
+        }
+        .uborahealth_happyclients1 img{
+            width: 10rem;
+            margin-left: 4rem;
+        }
+        h5{
+            margin-left: 7rem;
+        }
+        .uborahealth_happyclients2 img{
+            width: 8rem;
+            margin-left: 6rem;
+        }
+        h3{
+            margin-left: 8rem;
+        }
+        .content2{
+            margin-left: 5rem;
+            font-size: 28px;
+            width: 20rem;
+        }
+    }
+}
+@media screen and (max-width: 37.5em){
+      .heading{
+        width: 70rem;
+        margin: 5rem 0 0 1rem;
+      }
+      .uborahealth_clients_container{
+        width: 100rem;
+        h2{
+            margin: 15rem 0 0 3rem;
+        }
+        h4{
+            font-size: 40px;
+            font-weight: 400;
+            width: 60rem;
+            margin: 0 0 0 1rem;
+        }
+        #qototaions{
+            margin: 15rem 0 0 50rem;
+        }
+        .uborahealth_clients_content{
+            display: grid;
+            grid-template-columns: 5% 10% 5%;
+        }
+        .uborahealth_happyclients_container{
+            display: grid;
+            grid-template-columns: 20% 20% 20%;
+        }
+        .uborahealth_happyclients img{
+            width: 8rem;
+            margin-left: 5rem;
+        }
+        h6{
+            margin-left: 7rem;
+        }
+        .content1{
+            margin-left: 3rem;
+            font-size: 35px;
+            width: 30rem;
+        }
+        .uborahealth_happyclients1 img{
+            width: 8rem;
+            margin-left: 15rem;
+        }
+        h5{
+            margin-left: 17rem;
+        }
+        .uborahealth_happyclients2 img{
+            width: 8rem;
+            margin-left: 25rem;
+        }
+        h3{
+            margin-left: 27rem;
+        }
+        .content2{
+            margin-left: 10rem;
+            width: 30rem;
+            font-size: 35px;
+        }
+      }
+}

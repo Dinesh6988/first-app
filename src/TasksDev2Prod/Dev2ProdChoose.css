@@ -1,0 +1,308 @@
+.choose{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    font-size: 36px;
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.heading{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #535074;
+    padding: 0;
+    width: 95rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.dev2prod_choose_image_details img{
+     width: 40rem;
+     height: 40rem;
+     margin: 2rem 0  0 5rem;
+}
+.dev2prod_choose_container{
+    display: flex;
+    padding: 1rem;
+}
+#choose1{
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #444;
+    font-family: "Open Sans", sans-seri;
+    margin: 4rem 0 0 0;
+    width: 40rem;
+}
+#choose2{
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family:  "Open Sans", sans-serif;
+    color: #444;
+    margin-top: 2rem;
+    width: 35rem; 
+}
+.dev2prod_choose_details{
+    display: flex;
+    flex-direction: column;
+}
+.budget{
+    display: flex;
+    align-items: center;
+}
+.budget img{
+    width: 3rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.budget h1{
+    padding: 0;
+    margin: 0 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #413e66;
+    font-family:"Montserrat", sans-serif ;
+    line-height: 1.2;
+}
+.choose3{
+    padding: 0;
+    margin: 0 0 1px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    margin-left:5rem;
+    color: #555186;
+}
+.choose3 p{
+    margin: 0 0;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.team img{
+    width: 3rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.team h1{
+    padding: 0;
+    margin:0 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+}
+.choose4{
+    padding: 0;
+    margin: 0 0 1px 0;
+    font-size: 16px;
+    margin: 0 0;
+    color: #555186;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 5rem;
+}
+.choose4 p{
+    margin: 0 0;
+}
+.customer{
+    display: flex;
+    align-items: center;
+}
+.customer img{
+    width: 3rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.customer h1{
+    padding: 0;
+    margin: 0 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+}
+.choose5{
+    padding: 0;
+    margin: 0 0 1px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    margin-left:5rem ;
+    color: #555186;
+}
+.choose5 p{
+    margin: 0 0;
+}
+@media only screen and (max-width:37.5em){
+.choose{
+    font-size: 20px;
+    padding: 0.5;
+    margin-bottom: 0;
+}
+.heading{
+   text-align: start;
+   font-size: 14px;
+   width: 23rem; 
+   margin: 0 0 0 0.5rem;
+}
+.dev2prod_choose_container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 21.2rem;
+}
+.dev2prod_choose{
+    /* border: 1px solid black; */
+    width: 23.2rem;
+}
+.dev2prod_choose_image_details img{
+    width: 20rem;
+    height: 20rem;
+    margin: 0 0 0 0.5rem;
+}
+#choose1{
+    font-size: 14px;
+    width: 20rem;
+    margin-top: 0;
+}
+#choose2{
+    font-size: 14px;
+    margin: 0.5rem 0;
+}
+.budget h1{
+    font-size: 15px;
+    margin: 0 0 0 0.5rem;
+    width: 17rem;
+}
+.budget img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.choose3 P{
+    width: 19rem;
+    margin-left: -2.8rem;
+    font-size: 14px;
+}
+.team img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.team h1{
+    margin: 0.5rem 0 0 0.5rem;
+    font-size: 15px;
+}
+.choose4 p {
+    font-size: 14px;
+    margin-left: -2.5rem;
+    width: 19rem;
+}
+.customer img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.customer h1{
+    margin: 0.5rem 0 0 0.5rem;
+    font-size: 15px;
+}
+.choose5 p{
+    font-size: 14px;
+    margin-left: -2.5rem;
+    width: 19rem;
+}
+}
+@media only screen and (max-width: 56.25em) and (min-width:600px){
+.choose{
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 0 0;
+    padding-top: 1rem;
+}
+.heading{
+    text-align: start;
+    font-size: 18px;
+    width: 28rem; 
+    margin: 0.5rem 0 0 0.5rem;
+ }
+ .dev2prod_choose_container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 29rem;
+}
+.dev2prod_choose{
+    /* border: 1px solid black; */
+    width: 31rem;
+}
+.dev2prod_choose_image_details img{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 0 0 5rem;
+}
+#choose1{
+    font-size: 18px;
+    width: 24rem;
+    margin-top: 0;
+}
+#choose2{
+    font-size: 18px;
+    margin: 0.5rem 0;
+    width: 38rem;
+}
+.budget h1{
+    font-size: 20px;
+    margin: 1rem 0 0 0.5rem;
+}
+.budget img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.choose3 P{
+    width: 24rem;
+    margin-left: -2rem;
+    font-size: 18px;
+}
+.team img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.team h1{
+    margin: 1rem 0 0 0.5rem;
+    font-size: 20px;
+}
+.choose4 p {
+    font-size: 18px;
+    margin-left: -2rem;
+    width: 24rem;
+}
+.customer img{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.customer h1{
+    margin: 1rem 0 0 0.5rem;
+    font-size: 20px;
+}
+.choose5 p{
+    font-size: 18px;
+    margin-left: -2rem;
+    width: 24rem;
+}
+}

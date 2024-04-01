@@ -1,0 +1,67 @@
+.image_logo{
+    img{
+        margin: 1rem 0 0 2rem;
+    }
+}
+.form_container{
+    margin: 0 0 0 10rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70rem;
+    height: 40rem;
+    background-color: #f8fbff;
+    h2{
+        font-size: 20px;
+        margin: 10rem 0 0 5rem;
+    }
+    span{
+        color: #2d80b5;
+    }
+    h5{
+        margin: 1rem 0 0 5rem;
+    }
+    .input_email{
+        margin: 2rem 0 2rem 5rem;
+        width: 20rem;
+       Input{
+        height: 3rem;
+       }
+    }
+    .input_password{
+        width: 20rem;
+        margin-left: 5rem;
+        Input{
+            height: 2.5rem;
+           }
+    }
+    h3{
+        margin-left: 5rem;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .arrow{
+        margin-left: 15rem;
+        border-radius: 50%;
+        width: 4rem;
+        height: 3.5rem;
+        background-color: #2d80b5;
+        .anticon{
+            color: #fff;
+            width: 3rem;
+        }  
+    }
+    h4{
+        text-align: center;
+        font-size: 14px;
+    }
+    .signup{
+        color: #2d80b5;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .login_images{
+        width: 15rem;
+        margin: 10rem 0 0 8rem;
+    }
+}

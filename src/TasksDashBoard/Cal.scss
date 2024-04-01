@@ -1,0 +1,11 @@
+.calendar{
+    margin: 1rem 0 0 2rem;
+    width: 20rem;
+    height: 16.5rem;
+    box-shadow: 0 0 3px #d9d9dd;
+}
+@media screen and (max-width:900px){
+    .calendar{
+        display: none;
+    }
+}

@@ -1,0 +1,70 @@
+.image_logo{
+    margin: 1rem 0 0 2rem;
+    img{
+        width: 15rem;
+    }
+}
+.sign_container{
+    width: 70rem;
+    height: 40rem;
+    margin-left: 10rem;
+    background-color: #f8fbff;
+    h1{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    span{
+        color: #2d80b5;
+        cursor: pointer;
+    }
+    .signup_form{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 14rem;
+        row-gap: 1rem;
+        .input{
+            Input{
+                width: 20rem;
+                height: 2.5rem;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    .input_location{
+        margin-left: 13rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 14rem;
+        Input{
+            width: 41rem;
+            height: 2.5rem;
+            margin-top: 0.5rem;
+        }
+        label{
+           padding-top: 1rem;
+        }
+    }
+    Button{
+        text-align: center;
+        margin: 2rem 25rem;
+        width: 20rem;   
+        span{
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    .foot{
+        display: flex;
+        column-gap: 0.2rem;
+        margin: 0 25rem;
+        padding-top: 0;
+        letter-spacing: 1px;
+        h5{
+            margin: 0 0;
+            line-height: 25px;
+        }
+    }
+}

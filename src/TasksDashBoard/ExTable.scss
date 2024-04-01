@@ -1,0 +1,20 @@
+table{
+    display: none;
+}
+@media screen and (max-width:900px){
+    h3{
+        font-size: 4rem;
+        font-weight: 900;
+        margin: 0 0 0 2rem;
+    }
+    table{
+        display: unset;
+        font-size: 3rem;
+        th,td{
+            text-align: center;
+            padding: 2.5rem;
+            padding-left: 3rem;
+            margin-left: 4rem;
+        }
+    }
+}

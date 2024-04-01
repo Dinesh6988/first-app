@@ -1,0 +1,66 @@
+.dev2prod_frequent_head p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 2rem;
+    margin: 1rem;
+    color: #535074;
+    width: 93rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.dev2prod_frequent_head h1{
+    color: #413e66;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    padding: 0;
+    margin: 6rem 0 0 0;
+    text-align: center;
+}
+.frequent_content{
+    margin: 0 20rem;
+}
+
+@media only screen and (max-width:37.5em){
+.dev2prod_frequent_container{
+    /* border: 1px solid black; */
+    width: 23.2rem;
+}
+.dev2prod_frequent_head h1{
+    font-size: 20px;
+    margin-top: 0;
+}
+.dev2prod_frequent_head p{
+    font-size: 14px;
+    text-align: start;
+    padding: 0;
+    width: 23rem;
+}
+.frequent_content{
+    margin: 0 0;
+    width: 23.2rem;
+}
+}
+@media only screen and (max-width: 56.25em) and (min-width:600px){
+.dev2prod_frequent_container{
+    /* border: 1px solid black; */
+    width: 31rem;
+}
+.dev2prod_frequent_head h1{
+    font-size: 20px;
+    margin-top: 0;
+}
+.dev2prod_frequent_head p{
+    font-size: 18px;
+    text-align: start;
+    padding: 0;
+    width: 28rem;
+}
+.frequent_content{
+    margin: 0 0;
+    width: 31rem;
+   
+}
+}

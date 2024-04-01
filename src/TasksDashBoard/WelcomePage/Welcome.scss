@@ -1,0 +1,101 @@
+.body_container{
+    .welcome_img{
+       display: flex;
+       margin-top: 1rem;
+       border-radius: 0.2rem;
+       box-shadow:  0 0 2px #d9d9dd ;
+       height: 16.7rem;
+       margin-left: 5rem;
+       img{
+           margin: 3rem 0 0 1rem;
+       }
+    }
+   .welcome_body{
+       display: flex;
+       flex-direction: column;
+       .heading{
+           margin-left: 3rem;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           .welcome{
+               font-size: 16px;
+               font-weight: 200;
+           }
+           .welcome1{
+               font-weight: 100;
+               font-size: 14px;
+               margin-right: 1rem;
+           }
+       }
+       .images{
+           display: flex;
+           align-items: center;
+           margin: 2rem 0;
+           img{
+               margin: 0 1.5rem;
+           }
+           h4{
+               margin: 0 0 0 2rem;
+               font-size: 14px;
+               font-weight: 400;
+           }
+       }
+   }
+}
+@media screen and (max-width:900px){
+    .body_container{
+        margin-top: 5rem;
+        width: 50rem;
+        .welcome_img{
+            box-shadow: none;
+            img{
+                display: none;
+            }
+        }
+        .welcome_body{
+            .welcome{
+               h2{
+                margin-left: 16rem;
+                font-size: 40px;
+                font-weight: 900;
+               }
+            }
+            .images{
+                display: grid;
+                grid-template-columns: 20% 20% 20%;
+                align-items: center;
+                column-gap: 10rem;
+                img{
+                   display: unset;
+                   width: 15rem;
+                }
+                h4{
+                    font-size: 30px;
+                    font-weight: 500;
+                    margin-left: 5rem;
+                    width: 12rem;
+                }
+            }
+            .welcome1{
+                display: none;
+            }
+        }
+        } 
+}
+@media screen and (max-width: 37.5em){
+    .body_container{
+        margin-top: 0;
+        .welcome_img{
+            border: none;
+        }
+        .welcome_body{
+            .welcome{
+                h2{
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.ipad{
+    display: none;
+}
+@media screen and (max-width:900px){
+    #web{
+        display: none;
+    }
+    .ipad{
+        display: unset;
+    }
+}
